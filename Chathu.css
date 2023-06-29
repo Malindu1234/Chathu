@@ -1,0 +1,110 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+   
+h2{
+    color:purple;
+}
+h3{ 
+    color: rgb(170, 110, 226);
+}
+h4{
+    color:plum
+}
+h5{
+    color:palevioletred
+}
+body{background-image:url("IMG_20230609_203652_019.jpg");
+    background-size: cover;
+    
+}
+.about me{
+     border: 2px solid #333;
+     border-radius:8px ;
+     background-color: plum (240,248,2550,85);
+     padding: 20px;
+     align-items: center;
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+nav{
+    background-image: url("IMG_20230609_203652_019.jpg");
+}
+#aboutme{ 
+    background-color: rgba(219, 230, 230, 0.479);
+    border: 100cqmin;
+}
+
+#aboutme img{
+    border-radius: 40%;
+    border-radius: 80%;
+
+}
+.name{
+    background-color: aquamarine;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#interest{
+    background-color: rgba(191, 207, 207, 0.363);
+    border: 100cqmin;
+}
+#interest img{
+    border-radius: 40%;
+    border-radius: 80%;
+    width: 300px;
+}
+.name{
+    background-image: url("IMG_20230609_203652_019.jpg") ;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav{ 
+    display: flex;
+}
+@media (min-width: 768px) {
+    #aboutme{
+        background-color: rgb(221, 123, 4);
+    }
+}
+
+@media (min-width: 900px) {
+    #aboutme{
+        background-color: rgb(221, 4, 33);
+    }
+}
+
+@media (min-width:750) {
+    #interest{
+        background-color: rgba(62, 23, 168, 0.938);
+    }
+}
+@media (min-width:900) {
+    #interest{
+        background-color: rgb(148, 6, 6);
+    }
+}
+#aboutme:hover,  #interest:hover{
+    -webkit-animation-name : myanimation;
+    -webkit-animation-duration:2s ;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration:forwards ;
+    -webkit-animation-timing-function: ease-in-out;
+    }
+
+  @keyframes myanimation{
+    from{
+        opacity: 0.5;
+        transform: scale(0);
+    }
+}
+to{
+    opacity: 1;
+    transform: scale(1);
+      }
+    }   
+  
